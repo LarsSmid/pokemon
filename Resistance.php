@@ -1,15 +1,16 @@
 <?php
-class Weakness {
+class Resistance {
+
     //declare variables
     public $name;
-    public $multiplier;
+    public $value;
 
     //construct function
-    public function __construct($name, $multiplier){
+    public function __construct($name, $value){
         $this->name = $name;
-        $this->multiplier = $multiplier;
+        $this->value = $value;
     }
-    
+
     //json encoe for string
     public function __toString() {
           return json_encode($this);
