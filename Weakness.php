@@ -9,8 +9,8 @@ class Weakness {
         $this->name = $name;
         $this->multiplier = $multiplier;
     }
-    
-    //json encoe for string
+
+    //json encode for string
     public function __toString() {
           return json_encode($this);
     }

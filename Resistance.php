@@ -1,6 +1,5 @@
 <?php
 class Resistance {
-
     //declare variables
     public $name;
     public $value;

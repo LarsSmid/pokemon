@@ -23,3 +23,11 @@ print_r('<pre>' . $pikapika . '</pre>');
 echo "BALBASAR";
 //print custom charmeleon
 print_r('<pre>' . $balbasar . '</pre>');
+
+//attack balbasar
+echo "Pikachu valt charmeleon aan met de electric ring attack";
+$pikapika->attack($pikapika->attacks[0]->hitpoints, $balbasar);
+
+//attack balbasar
+echo "Charmeleon valt pikachu aan met de Flare  attack";
+$balbasar->attack($balbasar->attacks[1]->hitpoints, $pikapika);
